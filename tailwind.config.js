@@ -1,0 +1,126 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        // Primary — deep plum/violet (the app's anchor color)
+        primary: {
+          50: '#faf5ff',
+          100: '#f3e8ff',
+          200: '#e9d5ff',
+          300: '#d8b4fe',
+          400: '#c084fc',
+          500: '#a855f7',
+          600: '#9333ea',
+          700: '#7e22ce',
+          800: '#6b21a8',
+          900: '#581c87',
+          950: '#3b0764',
+        },
+        // Lavender — soft secondary
+        lavender: {
+          50: '#f9f7ff',
+          100: '#f1ecff',
+          200: '#e6dbff',
+          300: '#d4c2ff',
+          400: '#b89dff',
+          500: '#9d76f5',
+          600: '#8b5ce6',
+          700: '#7c47d1',
+          800: '#6a3cb0',
+          900: '#5a3290',
+        },
+        // Pink — warm accent
+        accent: {
+          50: '#fdf2f8',
+          100: '#fce7f3',
+          200: '#fbcfe8',
+          300: '#f9a8d4',
+          400: '#f472b6',
+          500: '#ec4899',
+          600: '#db2777',
+          700: '#be185d',
+          800: '#9d174b',
+          900: '#831843',
+        },
+        success: {
+          50: '#f0fdf4',
+          100: '#dcfce7',
+          200: '#bbf7d0',
+          300: '#86efac',
+          400: '#4ade80',
+          500: '#22c55e',
+          600: '#16a34a',
+          700: '#15803d',
+          800: '#166534',
+          900: '#14532d',
+        },
+        warning: {
+          50: '#fffbeb',
+          100: '#fef3c7',
+          200: '#fde68a',
+          300: '#fcd34d',
+          400: '#fbbf24',
+          500: '#f59e0b',
+          600: '#d97706',
+          700: '#b45309',
+          800: '#92400e',
+          900: '#78350f',
+        },
+        danger: {
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#ef4444',
+          600: '#dc2626',
+          700: '#b91c1c',
+          800: '#991b1b',
+  900: '#7f1d1d',
+        },
+        ink: {
+          900: '#1a0f24',
+          800: '#2a1838',
+          700: '#3d2451',
+        },
+      },
+      fontFamily: {
+        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+        display: ['"Fraunces"', 'serif'],
+      },
+      boxShadow: {
+        soft: '0 4px 20px -4px rgba(91, 33, 138, 0.12)',
+        glow: '0 0 40px -8px rgba(168, 85, 247, 0.35)',
+        card: '0 1px 3px rgba(91, 33, 138, 0.08), 0 8px 24px -12px rgba(91, 33, 138, 0.18)',
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0', transform: 'translateY(8px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'scale-in': {
+          '0%': { opacity: '0', transform: 'scale(0.96)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        'slide-up': {
+          '0%': { opacity: '0', transform: 'translateY(24px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'pulse-ring': {
+          '0%': { transform: 'scale(0.9)', opacity: '0.7' },
+          '70%': { transform: 'scale(1.3)', opacity: '0' },
+          '100%': { transform: 'scale(0.9)', opacity: '0' },
+        },
+      },
+      animation: {
+        'fade-in': 'fade-in 0.4s ease-out',
+        'scale-in': 'scale-in 0.3s ease-out',
+        'slide-up': 'slide-up 0.5s ease-out',
+        'pulse-ring': 'pulse-ring 1.8s ease-out infinite',
+      },
+    },
+  },
+  plugins: [],
+};
