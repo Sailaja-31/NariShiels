@@ -16,7 +16,7 @@ NariShield is a Women's Digital and Personal Safety Website developed to help wo
 
 🎯 Our Mission: To empower women through digital awareness, scam prevention, and practical safety resources.
 
-💻 GitHub Repository: [Paste your GitHub link here]
+💻 GitHub Repository: [https://github.com/saipriyareddy01/NariShiels?utm_source=chatgpt.com]
 
 🌐 Live Website: https://narishield-women-saf-n3zb.bolt.host
 
